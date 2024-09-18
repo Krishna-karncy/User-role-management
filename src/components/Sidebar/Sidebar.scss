@@ -1,0 +1,20 @@
+@use '../../styles/index' as *;
+
+.logo-container {
+    @extend %content-center;
+    width: 100%;
+
+    .logo {
+        width: 120px;
+        padding: 20px 0 0;
+    }
+}
+
+.custom-menu {
+    padding: 20px 0;
+
+    .ant-menu-item-selected {
+        border-left: 4px solid #575656;
+    }
+}
+ 
